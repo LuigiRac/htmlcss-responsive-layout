@@ -50,7 +50,7 @@
 
 
 body {
-    font-family: "Montserrat", 'Helvetica Neue',sans-serif;
+    font-family: "Montserrat";
     font-weight: 400;
     font-style: normal;
 }
@@ -65,6 +65,10 @@ body {
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.sp-beetween {
+    justify-content: space-between;
 }
 /* Header */
 h1 {
@@ -116,7 +120,7 @@ width: 100%;
     padding: 40px;
 }
 
-.list ul {
+ul {
     list-style: none;
 }
 
@@ -124,4 +128,63 @@ width: 100%;
     padding: 10px;
 }
 
+.logo {
+    height: 100px;
+    margin-top: 35px;
+}
+.logo div a {
+    padding: 15px;
+}
+
+.marg-top {
+    margin-top: 40px;
+}
+.btn {
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 26px;
+    font-size: 20px;
+}
+
+.title-paragraph {
+    padding: 0 10px 15px;
+    font-size: 30px;
+}
+
+hr {
+    border: 1px solid var(--color-contrast);
+    width: 85px;
+    position: relative;
+    left: 10px;
+}
+
+.tiramisu-img {
+    width: 100%;
+    padding: 40px 95px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 45px;
+}
+
+
 /* Footer */
+footer {
+    background-color: var(--color-primary);
+    color: white;
+    height: 100%px;
+}
+
+footer ul {
+    display: inline-flex;
+    gap: 20px;
+}
+
+ul li a {
+    color: white;
+}
+
+.pad-25{
+    padding: 25px;
+}

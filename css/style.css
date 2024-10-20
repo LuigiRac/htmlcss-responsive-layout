@@ -7,9 +7,9 @@
   
 /* General */
 
-/* .debug {
+.debug {
     border: 1px solid red;
-} */
+}
 
 
 /* Utility */
@@ -42,7 +42,7 @@
         padding: 20px 10px;
     } */
 
-.container-mobile {
+.container{
     max-width: 640px;
         margin: 0 auto;
         padding: 20px 10px;
@@ -144,6 +144,7 @@ ul {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 26px;
     font-size: 20px;
+    display: inline-block;
 }
 
 .title-paragraph {
@@ -168,12 +169,14 @@ p {
     line-height: 45px;
 }
 
-
+.banner {
+    display: none;
+}
 /* Footer */
 footer {
     background-color: var(--color-primary);
     color: white;
-    height: 100%px;
+    height: 100%;
 }
 
 footer ul {
@@ -188,3 +191,75 @@ ul li a {
 .pad-25{
     padding: 25px;
 }
+
+
+
+/******************
+RESPONSIVE
+ *****************/
+
+ /* Tablet 1019x2249 */
+ @media screen and (min-width:1019px) {
+
+    .container {
+        max-width: 1019px;
+        margin: 0 auto;
+        padding: 20px 10px;
+    }
+
+    /* HEADER */
+
+    .just-center {
+        justify-content: flex-start;
+    }
+
+    /*  MAIN */
+    #recipe {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 20px 10px;   
+    }
+
+    .tablet {
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+        flex-wrap: wrap;
+        padding-top: 15px;
+    }
+    
+    .btn {
+        display: inline-block;
+        width: 150px;
+        border-radius: 30px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo div a {
+        padding: 10px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .banner {
+        display: block;
+        width: 100%;
+    padding-bottom: 30px;
+    }
+
+    .tiramisu-img {
+        width: 40%;
+        padding: 16px;
+        float: left;
+    }
+
+
+    /* FOOTER */
+    footer {
+    
+}
+ 

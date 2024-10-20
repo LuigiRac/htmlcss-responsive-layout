@@ -7,9 +7,9 @@
   
 /* General */
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 
 /* Utility */
@@ -48,8 +48,9 @@
         padding: 20px 10px;
 }
 
+
 body {
-    font-family: "Nerko One", cursive;
+    font-family: "Montserrat", 'Helvetica Neue',sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -61,11 +62,66 @@ body {
 .just-center {
     justify-content: center;
 }
+
+.wrap {
+    flex-wrap: wrap;
+}
 /* Header */
 h1 {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
     color: var(--color-contrast);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    font-size: 48px;
+    font-size: 60px;
+    font-weight: bold;
 }
 /* Main */
+
+#recipe {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 10px;
+} 
+
+main {
+    background-color: #F6F5F3
+}
+
+.sweets {
+    color: #D9D9D9;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--color-dark-text);
+    padding-bottom: 10px;
+}
+
+.youtube-img {
+width: 100%;
+}
+
+.list-title {
+    font-weight: bold;
+    padding: 0 10px 15px;
+    font-size: 25px;
+}
+
+.list {
+    background-color: var(--color-white);
+    padding: 40px;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list ul li {
+    padding: 10px;
+}
+
 /* Footer */

@@ -272,12 +272,35 @@ RESPONSIVE
 
 /* Desktop 1920x1822 */
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1920px) {
 
     .container {
-        max-width: 1200px;
+        max-width: 1920px;
         margin: 0 auto;
         padding: 20px 10px;
     }
- 
-}
+
+    #recipe {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 20px 10px; 
+    }
+
+    .youtube-img {
+        float: left;
+        width: 65%;
+        
+    }
+
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 35%;
+        height: 569px;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    }

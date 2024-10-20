@@ -1,9 +1,9 @@
 /* Font google */
-.nerko-one-regular {
+/* .nerko-one-regular {
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+  } */
   
 /* General */
 
@@ -24,7 +24,48 @@
     --color-icon-blue: #2871f0;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.container-small {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 10px;
+    } */
+
+.container-mobile {
+    max-width: 640px;
+        margin: 0 auto;
+        padding: 20px 10px;
+}
+
+body {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 /* Flex */
+.d-flex {
+    display: flex;
+}
+
+.just-center {
+    justify-content: center;
+}
 /* Header */
+h1 {
+    color: var(--color-contrast);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 48px;
+}
 /* Main */
 /* Footer */

@@ -7,9 +7,9 @@
   
 /* General */
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 
 
 /* Utility */
@@ -59,7 +59,7 @@ body {
     display: flex;
 }
 
-.just-center {
+.justify {
     justify-content: center;
 }
 
@@ -176,7 +176,6 @@ p {
 footer {
     background-color: var(--color-primary);
     color: white;
-    height: 100%;
 }
 
 footer ul {
@@ -188,8 +187,16 @@ ul li a {
     color: white;
 }
 
+.justify-footer {
+    justify-content: center;
+}
+
 .pad-25{
     padding: 25px;
+}
+
+.footer-line {
+    line-height: 30px;
 }
 
 
@@ -209,7 +216,7 @@ RESPONSIVE
 
     /* HEADER */
 
-    .just-center {
+    .justify {
         justify-content: flex-start;
     }
 
@@ -259,7 +266,18 @@ RESPONSIVE
 
 
     /* FOOTER */
-    footer {
     
 }
+
+
+/* Desktop 1920x1822 */
+
+@media screen and (min-width:1440px) {
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 10px;
+    }
  
+}
